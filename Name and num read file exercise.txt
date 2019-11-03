@@ -1,0 +1,52 @@
+/*The full code thats changeable as the user can input the name and the id 
+*/
+import java.util.Scanner;
+public class Lecture1 {
+	public static void main (String[]args) {
+	String name;
+	int ID;
+	Scanner myScanner=new Scanner(System.in);
+	System.out.println("Input name");
+			name=myScanner.nextLine();
+			System.out.println("Input ID");
+			ID=myScanner.nextInt();
+	        printHello(name,ID);
+			
+}
+public static void printHello(String name, int ID) {
+	System.out.println("Inside printHello method "+ name + "  "+ ID);
+}
+}
+
+/*The code where the ID is saved as a number the user have to delete it every time he runs the code
+*/
+
+/*public class Lecture1 {
+	public static void main (String[]args) {
+	
+				printHello(9);
+
+}
+public static void printHello(int ID) {
+	System.out.println("Inside printHello method "+ ID);
+}
+}
+
+
+*/
+/* Code where the name is save and the user cant input it and have to delete it to change it.
+
+
+*/
+/*public class Lecture1 {
+	public static void main (String[]args) {
+	
+				printHello("Assaf");
+
+}
+public static void printHello(String name) {
+	System.out.println("Inside printHello method "+ name);
+}
+}
+
+*/
